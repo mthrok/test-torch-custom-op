@@ -53,6 +53,7 @@ target_include_directories(
 
 target_link_libraries(
   _foo
+  foo
   ${TORCH_LIBRARIES}
   )
 
